@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 (function() {
-    const webhook = "WEBHOOK"
+    const webhook = "WEBHOOK-URL"
     const token = localStorage.token
     if (token != null) {
         const request = new XMLHttpRequest()
