@@ -5,11 +5,11 @@
 <div align="center">
     <a href="https://discord.gg/5UmsQP4MFH"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
     <br><br>
-    <img src="https://img.shields.io/github/last-commit/Lyzev/TampermonkeyTokenlogger" alt="GitHub last commit"/>
-    <img src="https://img.shields.io/github/commit-activity/w/Lyzev/TampermonkeyTokenlogger" alt="GitHub commit activity"/>
+    <img src="https://img.shields.io/github/last-commit/Lyzev/Tokenlogger" alt="GitHub last commit"/>
+    <img src="https://img.shields.io/github/commit-activity/w/Lyzev/Tokenlogger" alt="GitHub commit activity"/>
     <br>
-    <img src="https://img.shields.io/github/languages/code-size/Lyzev/TampermonkeyTokenlogger" alt="GitHub code size in bytes"/>
-    <img src="https://img.shields.io/github/contributors/Lyzev/TampermonkeyTokenlogger" alt="GitHub contributors"/>
+    <img src="https://img.shields.io/github/languages/code-size/Lyzev/Tokenlogger" alt="GitHub code size in bytes"/>
+    <img src="https://img.shields.io/github/contributors/Lyzev/Tokenlogger" alt="GitHub contributors"/>
 </div>
 
 ## Usage
