@@ -1,6 +1,6 @@
 <h1 align="center">Tampermonkey Tokenlogger</h1>
 
-<p align="center">A simple tokenlogger for Tampermonkey. (Browser Extension)</p>
+<p align="center">A Proof-Of-Concept for a discord tokenlogger. (Tampermonkey Script / Browser Extension)</p>
 
 <div align="center">
     <a href="https://discord.gg/5UmsQP4MFH"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
