@@ -1,6 +1,6 @@
 <h1 align="center">Tampermonkey Tokenlogger</h1>
 
-<p align="center">A Proof-Of-Concept for a discord tokenlogger. (Tampermonkey Script / Browser Extension)</p>
+<p align="center">A Proof-Of-Concept for a Discord tokenlogger. (Tampermonkey Script / Browser Extension)</p>
 
 <div align="center">
     <a href="https://discord.gg/5UmsQP4MFH"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
@@ -41,6 +41,11 @@ On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the
 The tokenlogger can also be obfuscated. For example you can use [obfuscator.io](https://obfuscator.io/).
 
 ## Bugs and Suggestions
+
+### Discord
+If you need support, you can join [this](https://discord.gg/5UmsQP4MFH) Discord server.
+
+### GitHub
 Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/TampermonkeyTokenlogger/issues) using the templates provided. Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
 
 ## Important
