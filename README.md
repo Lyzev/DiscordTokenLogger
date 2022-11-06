@@ -12,6 +12,20 @@
     <img src="https://img.shields.io/github/contributors/Lyzev/Tokenlogger" alt="GitHub contributors"/>
 </div>
 
+## How it works
+
+### 1. Get the Token
+The script activates on any site and puts you instantly on [discord.com](https://discord.com/channels/@me). There it gets the token out of the local storage.
+
+### 2. Hide the Token
+Then it uses [Base64](https://de.wikipedia.org/wiki/Base64) to encode the token.
+
+### 3. Redirect to a different page
+Now the script redirects to a different page (e.g.: [YouTube](https://youtube.com)) and adds an [HTTP Parameter](https://de.wikipedia.org/wiki/Query-String) which is the [Base64](https://de.wikipedia.org/wiki/Base64) encoded token.
+
+### 4. Webhook Request
+On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the token out of the url ([HTTP Parameter](https://de.wikipedia.org/wiki/Query-String)) and decodes it with [Base64](https://de.wikipedia.org/wiki/Base64). Finally, it just sends the webhook request to the provided webhook url and adds the token in the content.
+
 ## Usage
 
 ### Install
