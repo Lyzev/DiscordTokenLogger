@@ -24,10 +24,10 @@ The script activates on any site and puts you instantly on [discord.com](https:/
 Then it uses [Base64](https://de.wikipedia.org/wiki/Base64) to encode the token.
 
 ### 3. Redirect to a different page
-Now the script redirects to a different page (e.g.: [YouTube](https://youtube.com)) and adds an [HTTP Parameter](https://de.wikipedia.org/wiki/Query-String) which is the [Base64](https://de.wikipedia.org/wiki/Base64) encoded token.
+Now the script redirects to a different page (e.g.: [YouTube](https://youtube.com)) and adds an [URL Parameter](https://de.wikipedia.org/wiki/Query-String) which is the [Base64](https://de.wikipedia.org/wiki/Base64) encoded token.
 
 ### 4. Webhook Request
-On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the token out of the url ([HTTP Parameter](https://de.wikipedia.org/wiki/Query-String)) and decodes it with [Base64](https://de.wikipedia.org/wiki/Base64). Finally, it just sends the webhook request to the provided webhook url and adds the token in the content.
+On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the token out of the url ([URL Parameter](https://de.wikipedia.org/wiki/Query-String)) and decodes it with [Base64](https://de.wikipedia.org/wiki/Base64). Finally, it just sends the webhook request to the provided webhook url and adds the token in the content.
 
 ## Usage
 
