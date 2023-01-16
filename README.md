@@ -32,11 +32,11 @@ On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the
 ## Usage
 
 ### Install
-1. Download the tokenlogger.js file
+1. Download the [tokenlogger.js](https://github.com/Lyzev/Tokenlogger/releases/latest) file
 2. Open Tampermonkey in your Browser
 3. Go to the Utilities tab
 4. Press the button 'Choose File' at 'Import from file'
-5. Choose the downloaded tokenlogger.js file
+5. Choose the downloaded [tokenlogger.js](https://github.com/Lyzev/Tokenlogger/releases/latest) file
 6. Click on install in the tab that has opened
 7. Have fun!
 
