@@ -49,4 +49,4 @@ The tokenlogger can also be obfuscated. For example you can use [obfuscator.io](
 If you need support, you can join [this](https://discord.gg/5UmsQP4MFH) Discord server.
 
 ### GitHub
-Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/TampermonkeyTokenlogger/issues) using the templates provided. Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
+Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/Tokenlogger/issues) using the templates provided. Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
