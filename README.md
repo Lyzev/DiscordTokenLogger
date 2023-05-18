@@ -1,6 +1,6 @@
 <h1 align="center">Tampermonkey Tokenlogger</h1>
 
-<p align="center">A Proof-Of-Concept for a Discord tokenlogger.</p>
+<p align="center">Proof of Concept Discord Token Logger: A demonstration tool to highlight the vulnerability of Discord accounts by logging user tokens.</p>
 
 <div align="center">
     <a href="https://lyzev.github.io/discord/"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
