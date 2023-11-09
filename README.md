@@ -15,6 +15,8 @@
 ## Disclaimer
 Please note, this repository is for educational and proof of concept purposes only. The information and code contained within it should not be used for any illegal or unethical activities. The contributors to this repository are not liable for any actions taken or damages caused by the use of the information or code provided here. It is the responsibility of the user to ensure compliance with all applicable laws and regulations, and to obtain any necessary permissions before using the code or information.
 
+**Don't ask me how to get people to run it or anything like that and please don't go to my server and ask for Discord tokens. Just to reiterate, I do not support illegal activity and this is just to educate people on how easy it is to get hacked.**
+
 ## How it works
 
 ### 1. Get the Token
