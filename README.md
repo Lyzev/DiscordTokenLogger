@@ -5,6 +5,10 @@
 <div align="center">
     <a href="https://lyzev.github.io/discord/"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
     <br><br>
+    <img src="https://img.shields.io/github/v/release/Lyzev/DiscordTokenLogger" alt="GitHub release (latest by date)"/>
+    <br>
+    <img src="https://img.shields.io/github/downloads/Lyzev/DiscordTokenLogger/total" alt="GitHub all releases"/>
+    <br><br>
     <img src="https://img.shields.io/github/last-commit/Lyzev/DiscordTokenLogger" alt="GitHub last commit"/>
     <img src="https://img.shields.io/github/commit-activity/w/Lyzev/DiscordTokenLogger" alt="GitHub commit activity"/>
     <br>
