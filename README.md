@@ -56,3 +56,7 @@ If you need support, you can join [this](https://lyzev.github.io/discord/) Disco
 
 ### GitHub
 Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/DiscordTokenLogger/issues) using the templates provided. Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
+
+## Stats
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Lyzev/DiscordTokenLogger&type=Date)](https://star-history.com/#Lyzev/DiscordTokenLogger&Date)
