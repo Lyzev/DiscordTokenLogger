@@ -46,9 +46,6 @@ On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the
 6. Click on install in the tab that has opened
 7. Have fun!
 
-### Obfuscation
-The Discord Token Logger can be obfuscated with [obfuscator.io](https://obfuscator.io/) (and more) for added stealth. Keep in mind that hacking is unethical and illegal. Use this information responsibly.
-
 ## Bugs and Suggestions
 
 ### Discord
