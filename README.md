@@ -44,7 +44,7 @@ On the different page (e.g.: [YouTube](https://youtube.com)) the script gets the
 4. Press the button 'Choose File' at 'Import from file'
 5. Choose the downloaded [DiscordTokenLogger.js](https://github.com/Lyzev/DiscordTokenLogger/releases/latest) file
 6. Click on install in the tab that has opened
-7. Have fun!
+7. Use with caution and never use it for illegal activities!
 
 ## Bugs and Suggestions
 
